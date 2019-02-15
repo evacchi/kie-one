@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>org.kie</groupId>
+    <artifactId>kie-parent</artifactId>
+    <version>7.18.0-SNAPSHOT</version>
+    <!-- relativePath causes out-of-date problems on hudson slaves -->
+    <!--<relativePath>../droolsjbpm-build-bootstrap/pom.xml</relativePath>-->
+  </parent>
+
+  <groupId>org.kie</groupId>
+  <artifactId>kie-multi</artifactId>
+  <packaging>pom</packaging>
+
+  <name>8 :: Multiproject</name>
+
+
+  <modules>
+    <module>droolsjbpm-build-bootstrap/kie-bom</module>
+    <module>droolsjbpm-build-bootstrap/drools-bom</module>
+
+    <module>droolsjbpm-knowledge/kie-api</module>
+    <module>droolsjbpm-knowledge/kie-internal</module>
+
+    <module>drools/drools-core</module>
+    <module>drools/drools-compiler</module>
+    <module>drools/drools-model</module>
+
+    <module>jbpm/jbpm-flow</module>
+    <module>jbpm/jbpm-flow-builder</module>
+    <module>jbpm/jbpm-bpmn2</module>
+  </modules>
+
+
+
+</project>
