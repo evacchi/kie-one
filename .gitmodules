@@ -1,0 +1,12 @@
+[submodule "drools"]
+	path = drools
+	url = https://github.com/kiegroup/drools
+[submodule "droolsjbpm-build-bootstrap"]
+	path = droolsjbpm-build-bootstrap
+	url = https://github.com/kiegroup/droolsjbpm-build-bootstrap/
+[submodule "droolsjbpm-knowledge"]
+	path = droolsjbpm-knowledge
+	url = https://github.com/kiegroup/droolsjbpm-knowledge
+[submodule "jbpm"]
+	path = jbpm
+	url = https://github.com/kiegroup/jbpm
